@@ -11,7 +11,7 @@ export class FilterPipe implements PipeTransform {
    * @param key {string} - az objektumkulcs, amely alapján szűr
    * @returns {any[]} - a kifejezés alapján szűrt tömb
    */
-  transform(value: any[], phrase: string, key: string = ''): any {
+  transform(value: any[], phrase: string, key: string = ''): any[] {
     // A KÖVETKEZŐ SORT TÁVOLÍTSD EL!!!
 
     /**

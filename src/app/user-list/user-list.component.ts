@@ -26,7 +26,7 @@ export class UserListComponent implements OnInit {
    * @var columnKey {string} - a rendezés oszlopának kulcsa
    */
 
-  columnKey: string = '';
+  columnKey: string = 'id';
   constructor() { }
 
   ngOnInit(): void {
